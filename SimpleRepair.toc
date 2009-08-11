@@ -1,0 +1,18 @@
+## Interface: 30200
+
+## Title: SimpleRepair
+## Notes: Automatically repair your equipped and bagged items
+## Author: Quaiche
+## Version: 1.0
+## X-License: Apache 2.0
+## X-Credits: tekJunkSeller by Tekkub
+## X-Category: Inventory
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Events: MERCHANT_SHOW
+## X-LoadOn-MERCHANT_SHOW: LoadAddOn('SimpleRepair')
+
+LibStub.lua
+tekKonfigAboutPanel.lua
+SimpleRepair.lua
+

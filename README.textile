@@ -1,0 +1,6 @@
+Automatically repair any damaged equipment you have equipped or in your bags when you visit a vendor who can do repairs. 
+
+No configuration required. Just install and go.
+
+Inspired by "tekJunkSeller":http://www.wowinterface.com/downloads/info8099-tekJunkSeller.html by Tekkub.
+
