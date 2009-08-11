@@ -21,7 +21,7 @@ local L_SILVER = "s"
 local L_COPPER = "c"
 
 local function Print(...) 
-	DEFAULT_CHAT_FRAME:AddMessage(string.join(" ", "|cFF33FF99SimpleRepair|r:", ...)) 
+	print(string.join(" ", "|cFF33FF99SimpleRepair|r:", ...)) 
 end
 
 local f = CreateFrame("Frame")
@@ -42,9 +42,9 @@ function f:MERCHANT_SHOW()
 
 		if GetMoney() > cost then
 			RepairAllItems()
-			DEFAULT_CHAT_FRAME:AddMessage("Repaired all equipment for " .. formattedCost)
+			Print("Repaired all equipment for " .. formattedCost)
 		else
-			DEFAULT_CHAT_FRAME:AddMessage("Total repair cost of " .. formattedCost .. " is more than you can afford")
+			Print("Total repair cost of " .. formattedCost .. " is more than you can afford")
 		end
 	end
 end
