@@ -19,10 +19,7 @@ limitations under the License.
 local L_GOLD = "g"
 local L_SILVER = "s"
 local L_COPPER = "c"
-
-local function Print(...) 
-	print(string.join(" ", "|cFF33FF99SimpleRepair|r:", ...)) 
-end
+local function Print(...) print(string.join(" ", "|cFF33FF99SimpleRepair|r:", ...)) end
 
 local f = CreateFrame("Frame")
 f:SetScript("OnEvent", function(self, event, ...) if self[event] then return self[event](self, event, ...) end end)
