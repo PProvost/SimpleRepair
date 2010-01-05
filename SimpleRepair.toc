@@ -12,7 +12,7 @@
 ## X-LoadOn-Events: MERCHANT_SHOW
 ## X-LoadOn-MERCHANT_SHOW: LoadAddOn('SimpleRepair')
 
-LibStub.lua
-tekKonfigAboutPanel.lua
-SimpleRepair.lua
+libs\LibStub.lua
 
+libs\tekKonfigAboutPanel.lua
+SimpleRepair.lua
